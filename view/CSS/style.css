@@ -1,0 +1,159 @@
+body {
+    /* Location of the image */
+    background-image: url(../img/marvel5.png);
+    
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    
+    /* Background image is fixed in the viewport so that it doesn't move when
+    the content's height is greater than the image's height */
+    background-attachment: fixed;
+    
+    /* This is what makes the background image rescale based
+    on the container's size */
+    background-size: cover;
+    
+  
+    }
+
+    #cem{
+        width: 350px;
+        height: 250px;
+        background-color: rgba(88, 86, 86, 0.322);
+        padding-top: 30px;
+        margin-top: 50%;
+        text-align: center;
+  
+  
+      }
+     
+      strong{
+      color: #fffdfd;
+      
+      }
+      .div{
+        background-color: aliceblue;
+        width: 50px;
+        right: 50px;
+        
+      }
+      #img{
+          margin-left: 22px;
+          margin-top: 22px;
+          border: 3px solid white;
+      }
+  
+  
+      .flip-container2 {
+        width: 200px;
+        height: 250px;
+        perspective: 1000px;
+      }
+      .flipper2{
+        width: 200px;
+        height: 100%;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+        position: relative;
+      
+      }
+      .front2, .back2{
+        position: absolute;
+        width: 200px;
+        height: 100%;
+        backface-visibility: hidden;
+      }
+      .flip-container2:hover .flipper2{
+        transform: rotateY(180deg);
+        /* se quiser uma animação na vertical,
+        troque por rotateX(180deg)
+        */
+      }
+      .back2{
+        transform: rotateY(180deg);
+      }
+      .leren{
+        width:200px;
+        float: left;
+        margin-left: 200px;
+      }
+ 
+      #cad{
+        text-align: center;
+      }
+#cas{
+        width: 350px;
+        background-color: rgba(153, 26, 26, 0.973);
+        color: #fffdfd;
+      }
+#cas1{
+        width: 500px;
+        background-color: rgba(1, 91, 151, 0.973);
+        color: #fffdfd;
+      }
+  main{
+    width: 350px;
+      height: 0 auto;
+      margin: 0 auto;
+  }
+  #text{
+    background-color: rgba(76, 76, 88, 0.589);
+  }
+  .table{
+
+    color: white;
+
+    background-color: rgba(25, 25, 26, 0.199);
+
+    width: 1000px;
+
+    margin-top: 35px;
+
+    margin-left: 50%;
+
+    transform: translateX(-50%);
+
+  }
+  #main{
+
+    width: 1200px;
+ 
+    height: 1200px;
+ 
+    margin-left: 0px;
+ 
+    margin-right: 0px;
+ 
+    text-align: center;
+ 
+  }
+ 
+  .leren1{
+ 
+  
+ 
+    width: 200px;
+ 
+    float: right;
+ 
+  }
+ 
+  .leren3{
+ 
+    margin-left: 200px;
+ 
+    float: left;
+ 
+    margin-top: 100px;
+ 
+  }
+
+.teste{
+margin-top: 35px;
+margin-left: 50%;
+transform: translateX(-50%);
+}
+
